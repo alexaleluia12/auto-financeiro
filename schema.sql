@@ -1,4 +1,9 @@
 
+-- usuario e senha banco local
+-- create user 'ufinanceiro'@'%' identified by 'kbx49';
+-- create database auto_financeiro;
+-- grant all privileges on auto_financeiro.* to  'ufinanceiro'@'%';
+
 CREATE TABLE empresa (
   `id` BIGINT PRIMARY KEY AUTO_INCREMENT NOT NULL,
   `cod` VARCHAR(10) UNIQUE NOT NULL
