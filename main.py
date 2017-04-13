@@ -136,14 +136,6 @@ def salvar():
         conn.close()
 
 
-
-
-
-
-
-
-
-
 def geraln_query(sql):
     conn = utils.get_db_conn()
     lst = []
